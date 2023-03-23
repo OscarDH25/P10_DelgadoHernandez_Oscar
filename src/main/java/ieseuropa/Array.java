@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class Array {
 	private static int mediaArrays(int[] array) {
-		int suma = 0;
-		for (int i = 0; i < array.length; i++) {
-			suma += i;
-		}
-		return (int)suma/array.length;
+	    int suma = 0;
+	    for (int i = 0; i < array.length; i++) {
+	        suma += array[i];
+	    }
+	    return (int) suma / array.length;
 	}
 
 	public static void main(String[] args) {
