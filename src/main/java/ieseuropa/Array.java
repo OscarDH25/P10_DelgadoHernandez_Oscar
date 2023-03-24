@@ -29,7 +29,7 @@ public class Array {
 		}
 		return max;
 	}
-	
+
 	private static int calcularMediana(int[] array) {
 		Arrays.sort(array);
 		int numeroCentral = array.length/2;
