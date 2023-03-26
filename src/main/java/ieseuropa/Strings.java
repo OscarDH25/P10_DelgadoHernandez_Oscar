@@ -1,10 +1,16 @@
-package main.java.ieseuropa;
 
-public class Strings {
+	package main.java.ieseuropa;
 
+	public class Strings {
+		
+	private static int CalcularLongitud(String cadena) {
+			return cadena.length();
+	}
+    
 	private static String borrarApariencias(String cadena, String borrar) {
 		return cadena.replace(borrar, "");
 	}
+  
 	private static String repetirLetras(String cadena) {
 		String salida = "";
 		for (int i = 0; i < cadena.length(); i++) 
@@ -17,5 +23,3 @@ public class Strings {
 		System.out.println(borrarApariencias("Real Zaragoza", "Real"));
 		System.out.println(repetirLetras("La casa del lago"));
 	}
-
-}
